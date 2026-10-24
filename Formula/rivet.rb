@@ -23,12 +23,12 @@ class Rivet < Formula
 
   on_linux do
     on_arm do
-      url "https://github.com/panchenkoai/rivet/releases/download/v0.32.2/rivet-v0.32.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6fc2336b38e154827b595997c791923c3d29b7e1bf7d7160e17d366429f22c96"
+      url "https://github.com/panchenkoai/rivet/releases/download/v0.32.2/rivet-v0.32.2-aarch64-unknown-linux-gnu-glibc2.28.tar.gz"
+      sha256 "560981d5bc85661d0f7bbbc0fbf13ce1b5a03300533a273bc23a6b436aab1267"
     end
     on_intel do
-      url "https://github.com/panchenkoai/rivet/releases/download/v0.32.2/rivet-v0.32.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "cb1e096f6809f66a41965c7cbc264b2edb0c712c50ae9bca88a20e38bff9c0c0"
+      url "https://github.com/panchenkoai/rivet/releases/download/v0.32.2/rivet-v0.32.2-x86_64-unknown-linux-gnu-glibc2.28.tar.gz"
+      sha256 "1a9868bba04d99b3db569abf26792ed40a01ae0d1b0a182a7dade165a7a09b1d"
     end
   end
 
