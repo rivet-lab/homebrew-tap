@@ -5,7 +5,7 @@
 # Re-run it after each release.
 
 class Rivet < Formula
-  desc "CLI to export PostgreSQL and MySQL to Parquet/CSV (local, S3, GCS)"
+  desc "Export PostgreSQL, MySQL, SQL Server, Oracle and MongoDB to Parquet and CSV"
   homepage "https://github.com/panchenkoai/rivet"
   version "0.32.2"
   license "MIT"
